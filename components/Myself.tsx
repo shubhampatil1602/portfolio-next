@@ -6,7 +6,7 @@ const Myself = () => {
     <Container>
       <div className='flex gap-3 w-full'>
         <div className='w-[70%] sm:w-[78%]'>
-          <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none'>
+          <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl'>
             Hi, I&apos;m Shubham 👋
           </h1>
           <p className='mt-2 text-base sm:text-lg md:text-xl sm:px-1'>

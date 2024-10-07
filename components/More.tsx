@@ -9,7 +9,7 @@ const More = ({
 }) => {
   return (
     <div className='flex flex-col text-center justify-center items-center'>
-      <h3 className='bg-white text-[#08090A] text-sm py-1 px-3 rounded-lg border border-[#E5E7EB] transition-all hover:opacity-80'>
+      <h3 className='bg-white text-[#08090A] text-sm py-1 px-3 rounded-lg border border-[#E5E7EB] transition-all'>
         {title}
       </h3>
       <h4 className='text-3xl font-bold tracking-tighter sm:text-5xl mt-2'>
