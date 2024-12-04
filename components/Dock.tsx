@@ -39,8 +39,8 @@ export function Dock() {
     },
   ];
   return (
-    <div className='flex items-center justify-center w-full fixed bottom-3 left-0'>
-      <div className='absolute -bottom-4 w-full h-20 bg-gradient-to-t from-black/60 to-black/5'></div>
+    <div className='flex items-center justify-center w-full fixed bottom-0 left-0'>
+      <div className='absolute -bottom-10 w-full h-20 bg-black blur-[60px] z-[-1]'></div>
       <FloatingDock items={links} />
     </div>
   );
