@@ -23,7 +23,6 @@ const MyProjects = () => {
               className='border border-[#262626] rounded-md w-full sm:w-[305px] shadow-lg hover:shadow-xl transition-shadow flex flex-col'
             >
               {/* Project Image */}
-
               <div className='h-40 w-full rounded-t-md overflow-hidden'>
                 <Image
                   src={img}
@@ -76,6 +75,10 @@ const MyProjects = () => {
               </div>
             </div>
           ))}
+          {/* TODO: New route */}
+          {/* <div className='border border-[#262626] rounded-md w-full sm:w-[305px] shadow-lg hover:shadow-xl transition-shadow flex flex-col'>
+            view more
+          </div> */}
         </div>
       </div>
     </Container>
