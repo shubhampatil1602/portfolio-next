@@ -1,8 +1,9 @@
-import Image from 'next/image';
-import Container from './Container';
-import { Github, Globe } from 'lucide-react';
-import { data } from '@/utils/data';
-import More from './More';
+import Image from "next/image";
+import Container from "./Container";
+import { Globe } from "lucide-react";
+import { data } from "@/utils/data";
+import More from "./More";
+import { IconBrandGithub } from "@tabler/icons-react";
 
 const MyProjects = () => {
   return (
@@ -20,7 +21,7 @@ const MyProjects = () => {
           {data.projects.map(({ title, code, desc, img, tech, website }) => (
             <div
               key={title}
-              className='border border-[#262626] rounded-md w-full sm:w-[305px] shadow-lg hover:shadow-xl transition-shadow flex flex-col'
+              className='border border-[#262626] rounded-md w-full sm:w-[305px] transition-all shadow shadow-slate-600 hover:shadow-zinc-600 hover:shadow-md flex flex-col'
             >
               {/* Project Image */}
               <div className='h-40 w-full rounded-t-md overflow-hidden'>
@@ -66,7 +67,7 @@ const MyProjects = () => {
                     {code && (
                       <a href={code} target='_blank'>
                         <button className='bg-white flex gap-1 justify-center items-center text-[#08090A] text-[11px] h-7 w-16 rounded-md border border-[#262626] transition-all hover:opacity-80'>
-                          <Github size={14} /> Code
+                          <IconBrandGithub size={14} /> Code
                         </button>
                       </a>
                     )}
