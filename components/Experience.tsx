@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Container from './Container';
-import { data } from '@/utils/data';
+import Image from "next/image";
+import Container from "./Container";
+import { data } from "@/utils/data";
 
 const Experience = () => {
   return (
@@ -8,7 +8,7 @@ const Experience = () => {
       <h2 className='text-xl font-bold mb-2.5'>Work Experience</h2>
       <div className='flex flex-col gap-3'>
         {data.experiences.map(({ company, desc, duration, id, img, role }) => (
-          <div key={id} className='flex gap-4 items-start'>
+          <div key={id} className='flex gap-4 items-center'>
             <div className='w-[46px] h-[46px] flex-shrink-0'>
               <Image
                 src={img}

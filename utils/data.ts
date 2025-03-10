@@ -93,20 +93,20 @@ export const data = {
   ],
   experiences: [
     {
-      id: "ajdbc5678",
+      id: "2",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOUsKDuLnGMM8yLYCpmQ77lLBy6Aj6s7Eg_g&s",
+      company: "Tecknotrove Systems (I) Pvt Ltd",
+      role: "SDE Intern",
+      duration: "Jan. 2025 - Present",
+      desc: "",
+    },
+    {
+      id: "1",
       img: "https://phicsit.in/wp-content/uploads/2023/12/phy.png",
       company: "PHICSIT InfoTech Pvt. Ltd.",
       role: "Frontend Developer Intern",
-      duration: "Nov. 2024 - Present",
-      desc: "Created pages like create-quiz, explore and more using React.js. Built interactive modals, improved responsive UI/UX designs, and resolved bugs. Collaborated using Git, managing branches efficiently to streamline development.",
-    },
-    {
-      id: "qyWD67235",
-      img: "/infolabz.png",
-      company: "INFOLABZ IT SERVICES PVT LTD",
-      role: "React Developer Intern",
-      duration: "June 2024 - July 2024",
-      desc: "I completed an internship focused on React, where I worked on live API handling and data fetching. I also utilized Bootstrap and Tailwind CSS to develop small projects, enhancing my ability to create responsive and visually appealing user interfaces.",
+      duration: "Nov. 2024 - Jan. 2025",
+      desc: "",
     },
   ],
 };
